@@ -1,6 +1,8 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
 import { ReactNode } from "react";
 
+export const experimental_ppr = true;
+
 interface Props {
   children: ReactNode;
 }
