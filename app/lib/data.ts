@@ -8,7 +8,6 @@ import {
   Revenue,
 } from "./definitions";
 import { formatCurrency } from "./utils";
-import { invoices } from "./placeholder-data";
 
 export async function fetchRevenue() {
   try {
