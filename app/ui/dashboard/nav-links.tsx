@@ -32,11 +32,11 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  useEffect(() => {
-    console.log({
-      pathname,
-    });
-  });
+  // useEffect(() => {
+  //   console.log({
+  //     pathname,
+  //   });
+  // });
   return (
     <>
       {links.map((link) => {

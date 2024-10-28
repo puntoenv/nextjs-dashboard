@@ -22,7 +22,7 @@ export default function Search({ placeholder }: Props) {
       params.delete("query");
     }
     replace(`${pathname}?${params.toString()}`);
-    console.log(term);
+    // console.log(term);
   }, 500);
 
   return (
